@@ -306,11 +306,10 @@ section#hw_exploreMore {
     background: #fff;
     justify-content: center;
     align-items: center;
-    border: 4px solid #008bcd;
     border-radius: 50%;
     margin-bottom: -60px;
 }
-.hw_exploreMore_wrap .hw_exploreMore_icon {
+.hw_exploreMore_col:nth-child(3n + 2) .hw_exploreMore_wrap .hw_exploreMore_icon {
     background-color: #008BCD;
     height: 120px;
     display: flex;
@@ -318,6 +317,33 @@ section#hw_exploreMore {
     align-items: flex-end;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+.hw_exploreMore_col:nth-child(3n) .hw_exploreMore_wrap .hw_exploreMore_icon {
+    background-color: #EA7600;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hw_exploreMore_col:nth-child(3n + 1) .hw_exploreMore_wrap .hw_exploreMore_icon {
+    background-color: #93C90E;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hw_exploreMore_col:nth-child(3n + 2) .hw_exploreMore_wrap .hw_exploreMore_icon i {
+    border: 4px solid #008bcd;
+}
+.hw_exploreMore_col:nth-child(3n) .hw_exploreMore_wrap .hw_exploreMore_icon i {
+    border: 4px solid #EA7600;
+}
+.hw_exploreMore_col:nth-child(3n + 1) .hw_exploreMore_wrap .hw_exploreMore_icon i {
+    border: 4px solid #93C90E;
 }
 .hw_exploreMore_wrap {
     background-color: #fff;
