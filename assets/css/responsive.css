@@ -2,7 +2,12 @@
 
 /*EXTRA LARGE >1200*/
 @media(min-width:1200px) {
-
+    ul.navbar-nav li.nav-item {
+        padding-left: 60px;
+    }
+    footer#hw_footer .hw_copyright .hw_copyContent {
+        width: 60%;
+    }
 }
 /*EXTRA LARGE >1200*/
 
@@ -10,6 +15,14 @@
 /*LARGE >992 <1199*/
 @media(min-width:992px)and (max-width:1199px) {
 
+}
+@media screen and (min-width:992px) {
+    .header-fluid {
+        min-height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 /*LARGE >992 <1199*/
 

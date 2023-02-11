@@ -1,5 +1,125 @@
 @import url(../fonts/homewell.css);
 
 body {
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+* {
+	text-decoration: none !important;
+	outline: 0;
+}
+
+::selection {
+	color: #fff;
+	background: #008BCD;
+}
+
+.header-fluid {
+	background: #fff;
+	box-shadow: 0px 3px 6px #00000029;
+}
+
+.btn.btn-primary {
+	background: #008BCD !important;
+	color: #fff !important;
+	border: 2px solid #008BCD !important;
+	border-radius: 50px;
+	min-width: 180px;
+	font-size: 22px;
+	font-weight: 500;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+	background: transparent !important;
+	color: #008BCD !important;
+	border: 2px solid #008BCD !important;
+}
+.btn.btn-secondary {
+	background: #AF231C !important;
+	color: #fff !important;
+	border: 2px solid #AF231C !important;
+	border-radius: 50px;
+	min-width: 180px;
+	font-size: 22px;
+	font-weight: bold;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active {
+	background: transparent !important;
+	color: #AF231C !important;
+	border: 2px solid #AF231C !important;
+}
+
+.header-fluid {
+	padding: 0 5vw;
+}
+
+a.hw_logo.navbar-brand img {
+	width: 300px;
+	height: 60px;
+}
+li.nav-item a {
+	color: #004976 !important;
+	font-size: 22px;
+	font-weight: 500;
+}
+li.nav-item.active a {
+	color: #004976 !important;
+}
+
+
+footer#hw_footer {
+	background: #004976;
+}
+footer#hw_footer .hw_copyright {
+	background: #fff;
+	padding: 15px 0;
+}
+footer#hw_footer .hw_copyright p,
+footer#hw_footer .hw_copyright a {
+	margin: 0;
+	color: #004976;
+	font-size: 14px;
+}
+.hw_footer_logo img {
+	width: 300px;
+}
+footer#hw_footer .hw_footer_main p {
+	font-size: 16px;
+	color: #fff;
+	margin: 20px 0 55px;
+}
+footer#hw_footer .hw_footer_main h5 {
+	color: #fff;
+}
+footer#hw_footer .hw_footer_main a {
+	color: #fff;
+	text-decoration: none;
+}
+footer#hw_footer .hw_footer_main a:hover {
+	color: #008BCD;
+}
+footer#hw_footer .hw_footer_main .hw_socialLinks  a i {
+	color: #fff;
+	font-size: 22px;
+}
+footer#hw_footer .hw_footer_main .hw_socialLinks  a:hover i:before,
+footer#hw_footer .hw_footer_main .hw_socialLinks  a:focus i:before,
+footer#hw_footer .hw_footer_main .hw_socialLinks  a:active i:before {
+	color: #008BCD;
+	font-size: 22px;
 }
