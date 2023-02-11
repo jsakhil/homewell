@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'homewell';
+  src:  url('homewell.eot?ygqjiz');
+  src:  url('homewell.eot?ygqjiz#iefix') format('embedded-opentype'),
+    url('homewell.ttf?ygqjiz') format('truetype'),
+    url('homewell.woff?ygqjiz') format('woff'),
+    url('homewell.svg?ygqjiz#homewell') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="hw-"], [class*=" hw-"] {
+  font-family: 'homewell' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hw-companion_care:before {
+  content: "\e900";
+  color: #0096da;
+}
+.hw-personal_care:before {
+  content: "\e901";
+  color: #f58021;
+}
+.hw-speciality_care:before {
+  content: "\e902";
+  color: #fcb53b;
+}
+.hw-sign_programs:before {
+  content: "\e903";
+  color: #91c84e;
+}
+.hw-play_btn:before {
+  content: "\e904";
+  color: #fff;
+}
+.hw-ellipse .path1:before {
+  content: "\e905";
+  color: rgb(209, 209, 206);
+}
+.hw-ellipse .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hw-ellipse .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 73, 118);
+}
+.hw-fb:before {
+  content: "\e908";
+  color: #fff;
+}
+.hw-insta:before {
+  content: "\e909";
+  color: #fff;
+}
+.hw-twitter:before {
+  content: "\e90a";
+  color: #fff;
+}
+.hw-helpful_resources:before {
+  content: "\e90b";
+  color: #93c90e;
+}
+.hw-linkedin:before {
+  content: "\e90c";
+  color: #fff;
+}
+.hw-youtube:before {
+  content: "\e90d";
+  color: #fff;
+}
+.hw-read_blog:before {
+  content: "\e90e";
+  color: #dc7b2e;
+}
+.hw-become_caregiver:before {
+  content: "\e90f";
+  color: #008bcd;
+}
+.hw-quote:before {
+  content: "\e910";
+  color: #008bcd;
+}

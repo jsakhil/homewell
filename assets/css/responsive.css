@@ -1,0 +1,54 @@
+
+
+/*EXTRA LARGE >1200*/
+@media(min-width:1200px) {
+
+}
+/*EXTRA LARGE >1200*/
+
+
+/*LARGE >992 <1199*/
+@media(min-width:992px)and (max-width:1199px) {
+
+}
+/*LARGE >992 <1199*/
+
+
+/*MEDIUM >768 <991*/
+@media (min-width:768px)and (max-width:991px) {
+
+}
+/*MEDIUM >768 <991*/
+
+
+/*MEDIUM >768*/
+@media (min-width:768px) {
+
+}
+/*MEDIUM >768*/
+
+
+/*SMALL <767*/
+@media screen and (max-width:767px) {
+
+
+
+}
+/*SMALL<767*/
+
+
+/*SMALL >576 <767*/
+@media (min-width:576px) and (max-width:767px) {
+
+
+}
+/*SMALL >576 <767*/
+
+
+/*EXTRA SMALL <575*/
+@media (max-width:575px) {
+
+
+}
+/*EXTRA SMALL <575*/
+
