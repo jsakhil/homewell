@@ -8,6 +8,16 @@
     footer#hw_footer .hw_copyright .hw_copyContent {
         width: 60%;
     }
+    .hw_findCare {
+        width: 80%;
+    }
+    figure.hw_mainImage img {
+        width: 50vw;
+        max-width: 50vw;
+    }
+    .hw_homecareRight_accordion {
+        padding-left: 40px;
+    }
 }
 /*EXTRA LARGE >1200*/
 
